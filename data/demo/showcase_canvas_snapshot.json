@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "source": "unisydneybuddy_canvas_connector",
+  "canvas_base": "https://canvas.sydney.edu.au",
+  "synced_at": "2026-08-16T08:00:00Z",
+  "courses": [
+    {
+      "id": 6600,
+      "name": "Data Analytics for Business Capstone",
+      "course_code": "QBUS6600",
+      "term": "Semester 2 2026",
+      "syllabus_body": "Public showcase fixture with synthetic course content.",
+      "modules": [
+        {
+          "id": 602,
+          "name": "Week 2 · Data Analytics Workflow",
+          "position": 2,
+          "state": "started",
+          "items": [
+            {
+              "id": 6021,
+              "title": "2.1 Analytics workflow",
+              "type": "Page",
+              "page_url": "showcase-analytics-workflow",
+              "page": {
+                "title": "Analytics workflow",
+                "body": "A business analytics workflow begins by defining the decision problem and success criteria. Students then inspect data quality, document missing values and anomalies, prepare reproducible transformations, compare suitable models, and translate validated results into an actionable business recommendation.",
+                "updated_at": "2026-08-16T08:00:00Z",
+                "url": "showcase-analytics-workflow"
+              }
+            },
+            {
+              "id": 6022,
+              "title": "2.2 Data quality checklist",
+              "type": "Page",
+              "page_url": "showcase-data-quality",
+              "page": {
+                "title": "Data quality checklist",
+                "body": "Check field definitions, data types, duplicate records, missingness patterns, impossible values and potential leakage before modelling. Record every decision so another team member can reproduce the analysis.",
+                "updated_at": "2026-08-16T08:00:00Z",
+                "url": "showcase-data-quality"
+              }
+            },
+            {
+              "id": 6023,
+              "title": "2.3 Prepare for your workshop",
+              "type": "Page",
+              "page_url": "showcase-workshop-preparation",
+              "page": {
+                "title": "Prepare for your workshop",
+                "body": "Before the workshop, review the supplied dataset dictionary and bring one example of a business decision that could be supported by the available variables.",
+                "updated_at": "2026-08-16T08:00:00Z",
+                "url": "showcase-workshop-preparation"
+              }
+            }
+          ]
+        }
+      ],
+      "assignments": [
+        {
+          "id": 66001,
+          "name": "Assignment 1",
+          "description": "Individual analytics report using the supplied dataset.",
+          "due_at": "2026-09-07T23:59:00+10:00",
+          "points_possible": 30,
+          "submission_types": ["online_upload"],
+          "html_url": null,
+          "rubric": []
+        },
+        {
+          "id": 66002,
+          "name": "Assignment 2",
+          "description": "Group project: develop, evaluate and communicate a business analytics solution. Submit a written report, presentation video and reproducible code.",
+          "due_at": "2026-10-19T23:59:00+11:00",
+          "points_possible": 40,
+          "submission_types": ["online_upload"],
+          "html_url": null,
+          "rubric": []
+        },
+        {
+          "id": 66003,
+          "name": "Assignment 3",
+          "description": "Individual reflection on analytical decisions and team collaboration.",
+          "due_at": "2026-11-06T23:59:00+11:00",
+          "points_possible": 30,
+          "submission_types": ["online_upload"],
+          "html_url": null,
+          "rubric": []
+        }
+      ],
+      "announcements": [
+        {
+          "id": 660001,
+          "title": "Week 2 workshop preparation",
+          "message": "Please review the dataset dictionary before your workshop.",
+          "posted_at": "2026-08-16T07:30:00Z",
+          "updated_at": "2026-08-16T07:30:00Z",
+          "html_url": null
+        }
+      ]
+    }
+  ]
+}

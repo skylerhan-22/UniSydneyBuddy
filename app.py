@@ -33,7 +33,9 @@ analyse_assignment_materials = assignment_ai_module.analyse_assignment_materials
 
 
 ROOT = Path(__file__).resolve().parent
-CANVAS_SNAPSHOT_PATH = ROOT / "data" / "local" / "canvas_snapshot.json"
+CANVAS_SNAPSHOT_PATH = Path(
+    os.environ.get("CANVAS_SNAPSHOT_PATH", ROOT / "data" / "local" / "canvas_snapshot.json")
+)
 APP_DB_PATH = Path(os.environ.get("APP_DB_PATH", ROOT / "data" / "app.db"))
 CANVAS_SYNC_API_URL = os.environ.get("CANVAS_SYNC_API_URL", "").rstrip("/")
 

@@ -1,6 +1,6 @@
 # UniSydneyBuddy Skill Hub
 
-一个面向悉尼大学学生的中英双语 AI 课程工作台。MVP 将 Canvas 等来源中的课程资料转化为：
+一个面向大学生的中英双语 AI 课程工作台。MVP 将 Canvas 等来源中的课程资料转化为：
 
 1. Semester Brief
 2. Weekly Brief
@@ -10,18 +10,31 @@
 
 ## 当前阶段
 
-当前版本覆盖 QBUS6600、MKTG6018、MKTG6104 和 SIEN6006，并实现：
+当前版本已经完成从课程同步到 AI 解析的核心闭环：
 
-- 四课程 Course Overview、Class Structure、Assessment Map 与 Week 1–13
-- 中英双语 Semester Overview、Weekly Brief 与 Project Planner
-- Canvas Connector 真实只读同步，并将匹配的 Assignment 说明与 Rubric 载入 Project
-- Canvas 作业列表直达独立 Assignment Analysis 页面
-- 个人任务拆解与 3–6 人小组 Part / Owner / Reviewer 规划
-- 可选 OpenAI Structured Outputs 实时解析：分工 / 任务、内容框架与明确文档要求
-- 明确的 AI 分析动作、课程隔离和 SQLite 跨会话结果持久化
-- Canvas 增量同步提示、资料变更失效提醒和结果反馈
-- 四课程 Weekly AI Evaluation 数据集与可选真实 API Eval
-- 73 项自动测试、数据校验和真实浏览器验收
+- **Chrome Canvas Connector**：从已登录的 Canvas 会话只读同步 Courses、Modules、Pages、Assignments、Rubrics 与 Announcements，不收集 Canvas 密码。
+- **Semester Overview**：整理课程简介、课程形式、Assessment Map、截止日期和 Week 1–13 学习路径。
+- **Weekly Brief**：覆盖当周所有已发布 Module items，生成双语 Knowledge Map、逐节讲解、Workshop 准备与一页总结；资料未同步时明确标注，不让 AI 推测。
+- **Assignment Analysis**：从 Canvas 作业列表进入独立分析页，提取关键要求、最终交付物和 Assignment Structure。
+- **Group Project Planner**：支持 3–6 人 Part / Owner / Reviewer 分工、确认和 Markdown 导出。
+- **AI 与数据层**：OpenAI Structured Outputs、课程与用户隔离、SQLite 跨会话持久化、增量更新失效提醒及用户反馈。
+- **质量保障**：四门脱敏测试课程、Weekly AI Evaluation、73 项自动测试与真实浏览器验收。
+
+公开仓库中的课程和作业资料均为脱敏或虚构测试内容，不包含个人 Canvas 快照。
+
+## 产品界面
+
+### Semester Overview
+
+![Semester Overview](./docs/assets/semester-overview.jpg)
+
+### Weekly Brief
+
+![Weekly Brief](./docs/assets/weekly-brief.jpg)
+
+### Project Planner
+
+![Project Planner](./docs/assets/project-planner.jpg)
 
 ## 数据边界
 
