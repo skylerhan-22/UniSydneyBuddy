@@ -10,7 +10,7 @@
 
 ## 当前阶段
 
-当前本地 Demo 覆盖 QBUS6600、MKTG6018、MKTG6104 和 SIEN6006，并实现：
+当前版本覆盖 QBUS6600、MKTG6018、MKTG6104 和 SIEN6006，并实现：
 
 - 四课程 Course Overview、Class Structure、Assessment Map 与 Week 1–13
 - 中英双语 Semester Overview、Weekly Brief 与 Project Planner
@@ -21,7 +21,7 @@
 - 明确的 AI 分析动作、课程隔离和 SQLite 跨会话结果持久化
 - Canvas 增量同步提示、资料变更失效提醒和结果反馈
 - 四课程 Weekly AI Evaluation 数据集与可选真实 API Eval
-- 68 项自动测试、数据校验和真实浏览器验收
+- 73 项自动测试、数据校验和真实浏览器验收
 
 ## 数据边界
 
@@ -68,9 +68,9 @@ python scripts/run_weekly_ai_evals.py --live  # 会实际调用已配置的 Open
 
 详细步骤、成本边界和发布检查见 [公开部署说明](./docs/DEPLOYMENT.md)。
 
-学生端 Demo 只保留三个核心模块：Semester Overview、Weekly Brief 和 Project Planner。Semester Overview 使用 Unit Outline 和 Canvas 数据展示 Week 1–13；Weekly Brief 只总结已同步的 Canvas Module，按 Module Summary、关键知识点、详细讲解和内容目录组织；Project Planner 从 Canvas 作业列表进入独立 Assignment Analysis 页面，并支持个人任务和 3–6 人小组规划。
+学生端产品只保留三个核心模块：Semester Overview、Weekly Brief 和 Project Planner。Semester Overview 使用 Unit Outline 和 Canvas 数据展示 Week 1–13；Weekly Brief 只总结已同步的 Canvas Module，按 Module Summary、关键知识点、详细讲解和内容目录组织；Project Planner 从 Canvas 作业列表进入独立 Assignment Analysis 页面，并支持个人任务和 3–6 人小组规划。
 
-## 真实 Canvas Connector（本地开发版）
+## Canvas Connector
 
 `canvas_connector/` 提供一个只读 Chrome Manifest V3 扩展。它使用浏览器当前已登录的 `canvas.sydney.edu.au` 会话读取用户主动选择的 Courses、Modules、Pages、Assignments 和 Announcements，并把快照发送到本机 `127.0.0.1:8765`。不要求 Canvas 密码或个人 API token。
 
