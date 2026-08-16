@@ -1,0 +1,226 @@
+{
+  "dataset_version": "0.1.0",
+  "source_scope": "QBUS6600 Canvas Modules and Assignment overview observed 2026-08-14",
+  "course": {
+    "id": "usyd-2026s2-qbus6600",
+    "code": "QBUS6600",
+    "name_original": "Data Analytics for Business Capstone",
+    "name_localized": {
+      "zh-CN": "商业数据分析顶点课程"
+    },
+    "institution": "The University of Sydney",
+    "term": "Semester 2 2026",
+    "sessions": [],
+    "tools_and_channels": ["Canvas Modules", "Canvas Announcements", "Ed Discussion"],
+    "rules": [
+      "Use the same industry project throughout all three assignments.",
+      "Complete the Confidentiality Deed Poll before accessing industry project datasets.",
+      "Do not enter confidential, personal, copyrighted or otherwise sensitive information into an AI tool.",
+      "Verify and acknowledge permitted AI tool use."
+    ],
+    "assessment_ids": ["qbus6600-a1", "qbus6600-a2", "qbus6600-a3"],
+    "week_ids": ["qbus6600-w1", "qbus6600-w2"],
+    "unknowns": [
+      {"field": "sessions", "reason": "Day, time and location are not present in the current sample."},
+      {"field": "sessions.attendance_required", "reason": "Attendance requirement is not present in the current sample."},
+      {"field": "qbus6600-a2.intermediate_deliverables.due_at", "reason": "Responsibilities outline, progress report and peer review dates are TBA."}
+    ],
+    "evidence_ids": ["ev-course-identity", "ev-course-project-rule", "ev-course-confidentiality", "ev-course-ai-rule"]
+  },
+  "assessments": [
+    {
+      "id": "qbus6600-a1",
+      "course_id": "usyd-2026s2-qbus6600",
+      "title_original": "Assignment 1",
+      "title_localized": {"zh-CN": "作业 1"},
+      "mode": "individual",
+      "weight_percent": 30,
+      "due_at": "2026-09-07T23:59:00+10:00",
+      "page_limit": 12,
+      "team_size": null,
+      "deliverables": [
+        {"id": "written_report", "title_original": "Written report", "title_localized": {"zh-CN": "书面报告"}}
+      ],
+      "intermediate_deliverables": [
+        {"id": "confidentiality_deed", "title_original": "Confidentiality Deed Poll", "title_localized": {"zh-CN": "保密承诺文件"}, "due_at": "2026-08-28T23:59:00+10:00"}
+      ],
+      "dependencies": ["industry_project_selection", "industry_dataset_access"],
+      "requirements": ["Conduct exploratory data analysis for the selected industry project."],
+      "evidence_ids": ["ev-a1-summary", "ev-course-confidentiality"]
+    },
+    {
+      "id": "qbus6600-a2",
+      "course_id": "usyd-2026s2-qbus6600",
+      "title_original": "Assignment 2",
+      "title_localized": {"zh-CN": "作业 2"},
+      "mode": "group",
+      "weight_percent": 40,
+      "due_at": "2026-10-19T23:59:00+11:00",
+      "page_limit": 15,
+      "team_size": {"min": 3, "max": 4},
+      "deliverables": [
+        {"id": "written_report", "title_original": "Written report", "title_localized": {"zh-CN": "书面报告"}},
+        {"id": "presentation_video", "title_original": "Presentation video", "title_localized": {"zh-CN": "演示视频"}},
+        {"id": "python_code", "title_original": "Python code", "title_localized": {"zh-CN": "Python 代码"}}
+      ],
+      "intermediate_deliverables": [
+        {"id": "responsibilities_outline", "title_original": "Team responsibilities outline", "title_localized": {"zh-CN": "小组责任说明"}, "due_at": null},
+        {"id": "progress_report", "title_original": "Progress report", "title_localized": {"zh-CN": "进度报告"}, "due_at": null},
+        {"id": "peer_review", "title_original": "Peer review", "title_localized": {"zh-CN": "同伴评价"}, "due_at": null}
+      ],
+      "dependencies": ["qbus6600-a1", "industry_dataset_access"],
+      "requirements": [
+        "Use statistical or machine learning tools to address the industry project questions.",
+        "Provide a strategy and recommendations for the relevant management team.",
+        "Include an executive summary for a business audience."
+      ],
+      "evidence_ids": ["ev-a2-summary", "ev-a2-team", "ev-a2-deliverables"]
+    },
+    {
+      "id": "qbus6600-a3",
+      "course_id": "usyd-2026s2-qbus6600",
+      "title_original": "Assignment 3",
+      "title_localized": {"zh-CN": "作业 3"},
+      "mode": "individual",
+      "weight_percent": 30,
+      "due_at": "2026-11-06T23:59:00+11:00",
+      "page_limit": 6,
+      "team_size": null,
+      "deliverables": [
+        {"id": "reflection_report", "title_original": "Reflection report", "title_localized": {"zh-CN": "反思报告"}}
+      ],
+      "intermediate_deliverables": [],
+      "dependencies": ["qbus6600-a2"],
+      "requirements": ["Reflect critically on the semester-long project and group experience."],
+      "evidence_ids": ["ev-a3-summary"]
+    }
+  ],
+  "weeks": [
+    {
+      "id": "qbus6600-w1",
+      "course_id": "usyd-2026s2-qbus6600",
+      "week_number": 1,
+      "title_original": "Overview",
+      "title_localized": {"zh-CN": "课程与项目概览"},
+      "learning_objectives": ["Understand the unit and available industry projects."],
+      "sessions": [
+        {
+          "type": "module",
+          "title": "Week 1 module",
+          "starts_at": null,
+          "location": null,
+          "attendance_required": null,
+          "before": [],
+          "during": ["Review the unit introduction and industry project information."],
+          "after": ["Complete the Engage component."]
+        }
+      ],
+      "must_do": ["Review the available industry projects before making a selection."],
+      "project_links": ["industry_project_selection"],
+      "evidence_ids": ["ev-w1-modules"]
+    },
+    {
+      "id": "qbus6600-w2",
+      "course_id": "usyd-2026s2-qbus6600",
+      "week_number": 2,
+      "title_original": "The data analytic workflow and statistical/machine learning fundamentals",
+      "title_localized": {"zh-CN": "数据分析工作流与统计/机器学习基础"},
+      "learning_objectives": ["Understand the data analytic workflow and foundational statistical or machine learning concepts."],
+      "sessions": [
+        {
+          "type": "module",
+          "title": "Week 2 Learn, Explore, Reflect and Engage",
+          "starts_at": null,
+          "location": null,
+          "attendance_required": null,
+          "before": ["Review the Week 2 learning overview."],
+          "during": ["Complete the Explore and Reflect components."],
+          "after": ["Complete the Engage component."]
+        }
+      ],
+      "must_do": ["Complete the Week 2 Explore, Reflect and Engage items."],
+      "project_links": ["qbus6600-a1"],
+      "evidence_ids": ["ev-w2-modules"]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "a2-team-setup",
+      "project_id": "qbus6600-a2",
+      "title_original": "Confirm a team of three or four students",
+      "title_localized": {"zh-CN": "确认由 3–4 名学生组成的小组"},
+      "task_type": "shared_checkpoint",
+      "workstream": "setup",
+      "owner": null,
+      "reviewer": null,
+      "backup": null,
+      "due_at": null,
+      "depends_on": [],
+      "status": "proposed",
+      "origin": "course_requirement",
+      "evidence_ids": ["ev-a2-team"]
+    },
+    {
+      "id": "a2-responsibilities",
+      "project_id": "qbus6600-a2",
+      "title_original": "Complete the team responsibilities outline",
+      "title_localized": {"zh-CN": "完成小组责任说明"},
+      "task_type": "team",
+      "workstream": "setup",
+      "owner": null,
+      "reviewer": null,
+      "backup": null,
+      "due_at": null,
+      "depends_on": ["a2-team-setup"],
+      "status": "proposed",
+      "origin": "course_requirement",
+      "evidence_ids": ["ev-a2-deliverables"]
+    },
+    {
+      "id": "a2-merge-a1",
+      "project_id": "qbus6600-a2",
+      "title_original": "Synthesize Assignment 1 insights",
+      "title_localized": {"zh-CN": "整合作业 1 的分析发现"},
+      "task_type": "team",
+      "workstream": "analysis",
+      "owner": null,
+      "reviewer": null,
+      "backup": null,
+      "due_at": null,
+      "depends_on": ["qbus6600-a1"],
+      "status": "proposed",
+      "origin": "course_requirement",
+      "evidence_ids": ["ev-a2-summary"]
+    },
+    {
+      "id": "a2-final-qa",
+      "project_id": "qbus6600-a2",
+      "title_original": "Cross-review the report, video and Python code",
+      "title_localized": {"zh-CN": "交叉检查报告、视频与 Python 代码"},
+      "task_type": "shared_checkpoint",
+      "workstream": "qa",
+      "owner": null,
+      "reviewer": null,
+      "backup": null,
+      "due_at": null,
+      "depends_on": ["a2-merge-a1"],
+      "status": "proposed",
+      "origin": "ai_suggestion",
+      "evidence_ids": []
+    }
+  ],
+  "evidence": [
+    {"id": "ev-course-identity", "claim_path": "course.code", "source_id": "qbus6600-modules", "source_type": "module", "source_title": "QBUS6600 Canvas Modules", "locator": "Course header", "excerpt": "QBUS6600 Data Analytics for Business Capstone", "confidence": 1.0, "verification_status": "human_confirmed", "language": "en-AU", "contains_sensitive_data": false},
+    {"id": "ev-course-project-rule", "claim_path": "course.rules[0]", "source_id": "qbus6600-assignment-overview", "source_type": "assignment", "source_title": "Assignment overview", "locator": "Introduction to the industry project", "excerpt": "The same project is used throughout the semester.", "confidence": 1.0, "verification_status": "human_confirmed", "language": "en-AU", "contains_sensitive_data": false},
+    {"id": "ev-course-confidentiality", "claim_path": "course.rules[1]", "source_id": "qbus6600-assignment-overview", "source_type": "assignment", "source_title": "Assignment overview", "locator": "Mandatory requirement", "excerpt": "A Confidentiality Deed Poll is required before data access.", "confidence": 1.0, "verification_status": "human_confirmed", "language": "en-AU", "contains_sensitive_data": false},
+    {"id": "ev-course-ai-rule", "claim_path": "course.rules[2:4]", "source_id": "qbus6600-assignment-overview", "source_type": "assignment", "source_title": "Assignment overview", "locator": "Use of AI tools", "excerpt": "Sensitive information must not be entered into AI tools; outputs must be verified.", "confidence": 1.0, "verification_status": "human_confirmed", "language": "en-AU", "contains_sensitive_data": false},
+    {"id": "ev-a1-summary", "claim_path": "assessments.qbus6600-a1", "source_id": "qbus6600-assignment-overview", "source_type": "assignment", "source_title": "Assignment overview", "locator": "Assignment 1", "excerpt": "Individual, 30%, 12 pages, due 7 September 2026.", "confidence": 1.0, "verification_status": "human_confirmed", "language": "en-AU", "contains_sensitive_data": false},
+    {"id": "ev-a2-summary", "claim_path": "assessments.qbus6600-a2", "source_id": "qbus6600-assignment-overview", "source_type": "assignment", "source_title": "Assignment overview", "locator": "Assignment 2", "excerpt": "Group assignment worth 40%, due 19 October 2026.", "confidence": 1.0, "verification_status": "human_confirmed", "language": "en-AU", "contains_sensitive_data": false},
+    {"id": "ev-a2-team", "claim_path": "assessments.qbus6600-a2.team_size", "source_id": "qbus6600-assignment-overview", "source_type": "assignment", "source_title": "Assignment overview", "locator": "Assignment 2 team formation", "excerpt": "Each group contains either three or four students.", "confidence": 1.0, "verification_status": "human_confirmed", "language": "en-AU", "contains_sensitive_data": false},
+    {"id": "ev-a2-deliverables", "claim_path": "assessments.qbus6600-a2.deliverables", "source_id": "qbus6600-assignment-overview", "source_type": "assignment", "source_title": "Assignment overview", "locator": "Assignment 2 deliverables", "excerpt": "Written report, presentation video, Python code, progress items and peer review.", "confidence": 1.0, "verification_status": "human_confirmed", "language": "en-AU", "contains_sensitive_data": false},
+    {"id": "ev-a3-summary", "claim_path": "assessments.qbus6600-a3", "source_id": "qbus6600-assignment-overview", "source_type": "assignment", "source_title": "Assignment overview", "locator": "Assignment 3", "excerpt": "Individual reflection worth 30%, six pages, due 6 November 2026.", "confidence": 1.0, "verification_status": "human_confirmed", "language": "en-AU", "contains_sensitive_data": false},
+    {"id": "ev-w1-modules", "claim_path": "weeks.qbus6600-w1", "source_id": "qbus6600-modules", "source_type": "module", "source_title": "QBUS6600 Canvas Modules", "locator": "Week 1 - Overview", "excerpt": "Unit introduction, industry projects, recording and Engage.", "confidence": 1.0, "verification_status": "human_confirmed", "language": "en-AU", "contains_sensitive_data": false},
+    {"id": "ev-w2-modules", "claim_path": "weeks.qbus6600-w2", "source_id": "qbus6600-modules", "source_type": "module", "source_title": "QBUS6600 Canvas Modules", "locator": "Week 2", "excerpt": "Data analytic workflow and statistical/machine learning fundamentals.", "confidence": 1.0, "verification_status": "human_confirmed", "language": "en-AU", "contains_sensitive_data": false}
+  ]
+}
+

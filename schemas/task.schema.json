@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://unisydneybuddy.local/schemas/task.schema.json",
+  "title": "Task",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "project_id",
+    "title_original",
+    "title_localized",
+    "task_type",
+    "workstream",
+    "owner",
+    "reviewer",
+    "backup",
+    "due_at",
+    "depends_on",
+    "status",
+    "origin",
+    "evidence_ids"
+  ],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "project_id": {"type": "string", "minLength": 1},
+    "title_original": {"type": "string", "minLength": 1},
+    "title_localized": {"type": "object", "additionalProperties": {"type": "string"}},
+    "task_type": {"type": "string", "enum": ["individual", "team", "shared_checkpoint"]},
+    "workstream": {"type": "string", "enum": ["setup", "research", "data", "analysis", "writing", "slides_video", "qa", "submission", "other"]},
+    "owner": {"type": ["string", "null"]},
+    "reviewer": {"type": ["string", "null"]},
+    "backup": {"type": ["string", "null"]},
+    "due_at": {"type": ["string", "null"], "format": "date-time"},
+    "depends_on": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "status": {"type": "string", "enum": ["proposed", "confirmed", "in_progress", "blocked", "done"]},
+    "origin": {"type": "string", "enum": ["course_requirement", "ai_suggestion", "user_created"]},
+    "evidence_ids": {"type": "array", "items": {"type": "string", "minLength": 1}}
+  }
+}
+

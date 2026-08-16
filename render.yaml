@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: unisydneybuddy
+    runtime: python
+    plan: starter
+    buildCommand: pip install -e .
+    startCommand: streamlit run app.py --server.address 0.0.0.0 --server.port $PORT
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.4
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: CANVAS_SYNC_API_URL
+        value: https://unisydneybuddy-sync.onrender.com
+      - key: APP_DB_PATH
+        value: /var/data/app.db
+    disk:
+      name: app-state-data
+      mountPath: /var/data
+      sizeGB: 1
+  - type: web
+    name: unisydneybuddy-sync
+    runtime: python
+    plan: starter
+    buildCommand: pip install -e .
+    startCommand: python scripts/sync_api.py
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.4
+      - key: CANVAS_SYNC_STORE
+        value: /var/data/snapshots
+    disk:
+      name: canvas-sync-data
+      mountPath: /var/data
+      sizeGB: 1

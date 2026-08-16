@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UniSydneyBuddy Connector</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <div class="eyebrow">READ-ONLY CANVAS SYNC</div>
+      <h1>UniSydneyBuddy</h1>
+      <p class="intro">从当前已登录的悉大 Canvas 读取你选择的课程，不读取密码、成绩或提交记录。</p>
+      <div id="status" class="status">正在检查 Canvas…</div>
+      <form id="course-form" hidden>
+        <label class="endpoint-label" for="endpoint">UniSydneyBuddy 同步地址</label>
+        <input id="endpoint" type="url" required placeholder="https://your-sync-service.onrender.com/canvas-sync" />
+        <fieldset>
+          <legend>选择要同步的课程</legend>
+          <div id="courses"></div>
+        </fieldset>
+        <button id="sync" type="submit">同步到 UniSydneyBuddy</button>
+      </form>
+      <p class="privacy">课程资料只发送到上方显示的 UniSydneyBuddy 地址；插件不读取 Canvas 密码。同步 Canvas 不代表同意发送给 AI。</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

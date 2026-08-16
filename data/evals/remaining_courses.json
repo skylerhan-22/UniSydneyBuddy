@@ -1,0 +1,128 @@
+{
+  "MKTG6018": {
+    "name": "Customer Analytics and Relationship Management",
+    "summary_en": "This unit combines customer relationship management with practical customer analytics. Students learn to understand customer relationships, analyse customer databases, improve customer profitability and communicate insights through data visualisation; no prior statistics knowledge is required.",
+    "summary_zh": "这门课把客户关系管理（CRM）与实际 Customer Analytics 结合起来，学习理解客户关系、分析客户数据库、提升客户价值，并通过数据可视化传达洞察；不要求先修统计知识。",
+    "learning_path_zh": "客户中心战略 → Customer Segmentation → CLV 与客户指标 → CRM Strategy → Text Analytics / NLP → Statistical Learning",
+    "learning_path_en": "Customer-centric strategy → segmentation → CLV and customer metrics → CRM strategy → text analytics / NLP → statistical learning",
+    "source_note_zh": "来源：MKTG6018 Semester 2 2026 Unit Outline 与 Canvas。Canvas 当前发布 Week 1–3 的详细资料；未发布周次仅展示 Unit Outline 主题。",
+    "source_note_en": "Sources: MKTG6018 Semester 2 2026 Unit Outline and Canvas. Detailed Canvas resources are currently published through Week 3; later weeks show Unit Outline topics only.",
+    "sources": [
+      {"title": "MKTG6018 Semester 2 2026 Unit Outline", "url": "https://www.sydney.edu.au/units/MKTG6018/2026-S2C-ND-CC"},
+      {"title": "MKTG6018 Canvas Modules", "url": "https://canvas.sydney.edu.au/courses/75565/modules"}
+    ],
+    "sessions": [
+      {"type": "Lecture", "duration": "1 hour", "attendance_zh": "Canvas 要求每周参加；录播随后可用", "attendance_en": "Weekly attendance expected; recording available afterwards"},
+      {"type": "Workshop", "duration": "2 hours", "attendance_zh": "需参加；Participation 占总评 15% 的一部分", "attendance_en": "Attendance expected; contributes to the 15% participation assessment"}
+    ],
+    "assessments": [
+      {"title_en": "Final Exam", "title_zh": "期末考试", "category_en": "Exam", "category_zh": "考试", "weight": 50, "due_at": null, "due_text_en": "Formal exam period", "due_text_zh": "正式考试周", "deliverables_en": "2-hour written exam", "deliverables_zh": "2 小时书面考试", "mode": "individual"},
+      {"title_en": "Data Case Assignment", "title_zh": "数据案例分析", "category_en": "Group assignment", "category_zh": "小组作业", "weight": 30, "due_at": "2026-09-20T23:59:00+10:00", "deliverables_en": "3000-word case analysis", "deliverables_zh": "3000 字数据案例分析", "mode": "group", "team_size": null},
+      {"title_en": "Reflection Essay", "title_zh": "反思论文", "category_en": "Individual written work", "category_zh": "个人作业", "weight": 5, "due_at": "2026-11-08T23:59:00+11:00", "deliverables_en": "1200-word reflection", "deliverables_zh": "1200 字反思论文", "mode": "individual"},
+      {"title_en": "Participation", "title_zh": "课堂参与", "category_en": "Participation", "category_zh": "课堂参与", "weight": 15, "due_at": null, "due_text_en": "Weekly", "due_text_zh": "每周", "deliverables_en": "Tutorial participation, discussion leadership and business research component", "deliverables_zh": "Tutorial 参与、讨论带领与 Business Research Component", "mode": "individual"}
+    ],
+    "weeks": [
+      {"week": 1, "title_en": "Course overview and introduction to Customer Analytics & CRM", "title_zh": "课程介绍与 Customer Analytics / CRM", "lecture": "Course overview and introduction to Customer Analytics & CRM", "tutorial": "Airbnb Sydney data understanding and first customer analytics", "outcomes": ["LO1", "LO3", "LO4"]},
+      {"week": 2, "title_en": "Customer-centric marketing and customer understanding", "title_zh": "客户中心营销与客户理解", "lecture": "Customer-centric marketing and customer understanding", "tutorial": "Customer persona and getting started with Tableau", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+      {"week": 3, "title_en": "Customer segmentation", "title_zh": "客户细分", "lecture": "Customer segmentation", "tutorial": "Customer segmentation workshop and team formation", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+      {"week": 4, "title_en": "Customer Lifetime Value (CLV)", "title_zh": "客户终身价值（CLV）", "lecture": "Customer Lifetime Value (CLV)", "tutorial": "CLV workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+      {"week": 5, "title_en": "Customer Experience Management and customer metrics", "title_zh": "客户体验管理与客户指标", "lecture": "Customer Experience Management (CEM) and customer metrics", "tutorial": "CEM and metrics workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+      {"week": 6, "title_en": "CRM strategies and Business Model Canvas", "title_zh": "CRM Strategy 与 Business Model Canvas", "lecture": "CRM strategies and Business Model Canvas", "tutorial": "CRM strategy workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 7, "title_en": "Introduction to customer analytics", "title_zh": "Customer Analytics 入门", "lecture": "Introduction to customer analytics", "tutorial": "Customer analytics workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5", "LO6"]},
+      {"week": 8, "title_en": "Text analysis and Natural Language Processing", "title_zh": "文本分析与 Natural Language Processing", "lecture": "Text analysis and Natural Language Processing (NLP)", "tutorial": "Text analytics workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+      {"week": 9, "title_en": "Statistical Learning Part 1", "title_zh": "Statistical Learning（一）", "lecture": "Statistical Learning Part 1", "tutorial": "Statistical Learning workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 10, "title_en": "Statistical Learning Part 2", "title_zh": "Statistical Learning（二）", "lecture": "Statistical Learning Part 2", "tutorial": "Statistical Learning workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 11, "title_en": "Advanced topics for Customer Analytics Part 1", "title_zh": "Customer Analytics 高级主题（一）", "lecture": "Advanced topics for Customer Analytics Part 1", "tutorial": "Advanced analytics workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 12, "title_en": "Advanced topics for Customer Analytics Part 2", "title_zh": "Customer Analytics 高级主题（二）", "lecture": "Advanced topics for Customer Analytics Part 2", "tutorial": "Advanced analytics workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5", "LO6"]},
+      {"week": 13, "title_en": "Course review and final exam tips", "title_zh": "课程复习与期末考试准备", "lecture": "Course review and final exam tips", "tutorial": "Workshop review and final exam tips", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]}
+    ],
+    "detailed_weeks": {
+      "1": {"learning_objectives_zh": ["理解课程结构以及 Customer Analytics 与 CRM 的关系", "用真实客户数据识别基础模式"], "learning_objectives_en": ["Understand the unit structure and the relationship between customer analytics and CRM", "Identify basic patterns in real customer data"], "must_do_zh": ["下载并预览 Airbnb Sydney dataset 与 data dictionary", "准备分享自己作为消费者提供或使用数据的经历"], "must_do_en": ["Download and preview the Airbnb Sydney dataset and data dictionary", "Prepare an example of providing or using consumer data"], "before_zh": ["查看 Airbnb 数据字段", "浏览 Inside Airbnb Sydney 可视化"], "before_en": ["Inspect the Airbnb data fields", "Explore the Inside Airbnb Sydney visualisation"], "during_zh": ["完成课堂认识活动", "用 Excel 对 Airbnb 数据进行初步分析"], "during_en": ["Complete introductory class activities", "Run an initial eyeball analysis of Airbnb data in Excel"], "after_zh": ["查看 Workshop slides 与 Tableau 示例"], "after_en": ["Review the workshop slides and Tableau example"]},
+      "2": {"learning_objectives_zh": ["理解客户画像如何支持客户选择", "开始使用 Tableau 分析客户数据"], "learning_objectives_en": ["Understand how personas support customer targeting", "Start analysing customer data in Tableau"], "must_do_zh": ["阅读 customer persona note", "查看 Bank Dashboard 并准备目标客户建议", "课前安装 Tableau"], "must_do_en": ["Read the customer persona note", "Review the Bank Dashboard and prepare a target-customer recommendation", "Install Tableau before class"], "before_zh": ["下载客户画像模板与银行客户数据", "观察 dashboard 中的客户模式"], "before_en": ["Download the persona template and bank customer data", "Inspect customer patterns in the dashboard"], "during_zh": ["小组制作 Customer Persona", "完成 Tableau 入门练习"], "during_en": ["Build a customer persona in groups", "Complete a Tableau starter exercise"], "after_zh": ["整理 Persona 假设与数据证据"], "after_en": ["Record the persona assumptions and supporting evidence"]}
+    }
+  },
+  "MKTG6104": {
+    "name": "Psychology of Marketing Decisions",
+    "summary_en": "This unit examines how heuristics and psychological biases shape business and consumer decisions. Students compare real human decision behaviour with logical decision rules and learn strategies for recognising and counteracting systematic errors.",
+    "summary_zh": "这门课研究启发式判断和心理偏差如何影响商业与消费者决策，把真实的人类决策行为与逻辑最优规则进行比较，并学习识别和应对系统性决策错误。",
+    "learning_path_zh": "决策模型 → 偏差与陷阱 → Heuristics → Framing → 动机、情绪与群体影响 → 公平与伦理",
+    "learning_path_en": "Decision models → biases and traps → heuristics → framing → motivational, emotional and group influences → fairness and ethics",
+    "source_note_zh": "来源：MKTG6104 Semester 2 2026 Canvas。2026 官方 Unit Outline 当前显示未发布；Assessment、Week 1–13 与课前任务均按 Canvas 原文整理。",
+    "source_note_en": "Source: MKTG6104 Semester 2 2026 Canvas. The public 2026 Unit Outline is currently unavailable; assessments, Weeks 1–13 and preparation tasks are taken from Canvas.",
+    "sources": [
+      {"title": "MKTG6104 2026 unit page (outline unavailable)", "url": "https://www.sydney.edu.au/units/MKTG6104"},
+      {"title": "MKTG6104 Canvas Modules", "url": "https://canvas.sydney.edu.au/courses/74763/modules"}
+    ],
+    "sessions": [
+      {"type": "Lecture", "duration": "Monday 13:30–15:00", "attendance_zh": "线下：Institute Lecture Theatre 1 (H03, N295)；提供课后录播", "attendance_en": "In person at Institute Lecture Theatre 1 (H03, N295); recording available afterwards"},
+      {"type": "Workshop", "duration": "Allocated timetable slot", "attendance_zh": "只能参加本人分配的 Workshop；课堂与线上参与合计 20%", "attendance_en": "Attend only the allocated workshop; in-class and online participation total 20%"}
+    ],
+    "assessments": [
+      {"title_en": "Early Feedback Task", "title_zh": "早期反馈测试", "category_en": "Online quiz", "category_zh": "在线测试", "weight": 5, "due_at": "2026-08-21T23:59:00+10:00", "deliverables_en": "15-minute MCQ", "deliverables_zh": "15 分钟 MCQ", "mode": "individual"},
+      {"title_en": "Class Participation", "title_zh": "课堂参与", "category_en": "Participation", "category_zh": "课堂参与", "weight": 20, "due_at": null, "due_text_en": "Throughout semester", "due_text_zh": "贯穿学期", "deliverables_en": "In-class and online activities", "deliverables_zh": "课堂与线上活动", "mode": "individual"},
+      {"title_en": "In-semester Test", "title_zh": "期中测试", "category_en": "Supervised test", "category_zh": "线下监考测试", "weight": 30, "due_at": "2026-10-24T09:50:00+11:00", "deliverables_en": "60-minute closed-book MCQ", "deliverables_zh": "60 分钟闭卷 MCQ", "mode": "individual"},
+      {"title_en": "Group Project", "title_zh": "小组项目", "category_en": "Group assignment", "category_zh": "小组作业", "weight": 45, "due_at": "2026-11-06T23:59:00+11:00", "deliverables_en": "1-page poster, 500-word synopsis and 2500-word report", "deliverables_zh": "1 页海报、500 字摘要与 2500 字报告", "mode": "group", "team_size": {"min": 4, "max": 6}}
+    ],
+    "weeks": [
+      {"week": 1, "title_en": "Introduction to decision making", "title_zh": "决策导论", "lecture": "Decision models and the gap between theory and real behaviour", "tutorial": "Decision-style exercise and unit overview", "outcomes": ["LO1", "LO2"]},
+      {"week": 2, "title_en": "Common decision biases and traps", "title_zh": "常见决策偏差与陷阱", "lecture": "Common decision biases and traps", "tutorial": "Bias review, group formation and project administration", "outcomes": ["LO1", "LO2", "LO3"]},
+      {"week": 3, "title_en": "Heuristics", "title_zh": "启发式判断", "lecture": "Heuristics", "tutorial": "Heuristics workshop", "outcomes": ["LO1", "LO2", "LO3"]},
+      {"week": 4, "title_en": "Bounded awareness", "title_zh": "有限注意", "lecture": "Bounded awareness", "tutorial": "Applied decision exercise", "outcomes": ["LO1", "LO2", "LO3"]},
+      {"week": 5, "title_en": "Framing matters", "title_zh": "框架效应", "lecture": "Framing effects", "tutorial": "Framing workshop", "outcomes": ["LO1", "LO2", "LO3"]},
+      {"week": 6, "title_en": "Commitment and consistency", "title_zh": "承诺与一致性", "lecture": "Commitment and consistency", "tutorial": "Applied discussion", "outcomes": ["LO1", "LO2", "LO3"]},
+      {"week": 7, "title_en": "Motivational and emotional influences", "title_zh": "动机与情绪影响", "lecture": "Motivational and emotional influences", "tutorial": "Applied discussion", "outcomes": ["LO1", "LO2", "LO3"]},
+      {"week": 8, "title_en": "Experience and group influences", "title_zh": "经验与群体影响", "lecture": "Experience and group influences", "tutorial": "Applied discussion", "outcomes": ["LO1", "LO2", "LO3"]},
+      {"week": 9, "title_en": "Project work", "title_zh": "项目推进", "lecture": "No lecture — Labour Day public holiday", "tutorial": "Group project work", "outcomes": ["LO3", "LO4"]},
+      {"week": 10, "title_en": "Fairness and ethics in decision making", "title_zh": "决策中的公平与伦理", "lecture": "Fairness and ethics in decision making", "tutorial": "Ethics discussion", "outcomes": ["LO1", "LO2", "LO4"]},
+      {"week": 11, "title_en": "Revision and in-semester test", "title_zh": "复习与期中测试", "lecture": "Revision", "tutorial": "In-semester test preparation", "outcomes": ["LO1", "LO2", "LO4"]},
+      {"week": 12, "title_en": "Closing insights", "title_zh": "总结性洞察", "lecture": "Lessons from decision psychology", "tutorial": "Closing discussion", "outcomes": ["LO1", "LO2", "LO4"]},
+      {"week": 13, "title_en": "Project showcase", "title_zh": "项目展示", "lecture": "Project showcase", "tutorial": "Project submission and reflection", "outcomes": ["LO3", "LO4"]}
+    ],
+    "detailed_weeks": {
+      "1": {"learning_objectives_zh": ["区分经典、行政与政治决策模型", "反思理论决策与真实行为的差距"], "learning_objectives_en": ["Distinguish classical, administrative and political decision models", "Reflect on gaps between decision theory and real behaviour"], "must_do_zh": ["完成 Week 1 阅读", "参加本人分配的 Workshop", "完成 decision-style exercise"], "must_do_en": ["Complete the Week 1 readings", "Attend the allocated workshop", "Complete the decision-style exercise"], "before_zh": ["阅读现代决策理论、行为经济学与过度/不足思考材料"], "before_en": ["Read the materials on modern decision making, behavioural economics and over/under-thinking"], "during_zh": ["讨论何为决策以及 AI 是否削弱主动思考", "完成 decision-style exercise"], "during_en": ["Discuss what constitutes a decision and whether AI displaces active thinking", "Complete the decision-style exercise"], "after_zh": ["复盘个人决策风格与课程交付物"], "after_en": ["Review your decision style and the unit deliverables"]},
+      "2": {"learning_objectives_zh": ["识别常见决策偏差与陷阱", "理解偏差何时有害、何时可被利用"], "learning_objectives_en": ["Identify common decision biases and traps", "Understand when biases harm or can be used constructively"], "must_do_zh": ["完成三篇 Week 2 阅读", "在本人 Workshop 完成 4–6 人小组组建", "阅读 Group Project brief"], "must_do_en": ["Complete the three Week 2 readings", "Form a 4–6 person team within the allocated workshop", "Review the Group Project brief"], "before_zh": ["阅读 Hidden Traps、Big Decision 与 Outsmart Your Own Biases"], "before_en": ["Read Hidden Traps, Before You Make That Big Decision and Outsmart Your Own Biases"], "during_zh": ["复习三类决策模型", "组建同一 Workshop 的项目小组并建立 Canvas group space"], "during_en": ["Review the three decision models", "Form the project team within the workshop and set up the Canvas group space"], "after_zh": ["确认小组成员、沟通渠道和 Project brief 阅读分工"], "after_en": ["Confirm team members, communication channels and ownership for reviewing the project brief"]}
+    }
+  },
+  "SIEN6006": {
+    "name": "Entrepreneurship",
+    "summary_en": "This unit builds foundational knowledge of entrepreneurship and innovation across individual, organisational and ecosystem levels, including sustainable, technology, medical, social and cultural entrepreneurship.",
+    "summary_zh": "这门课建立创业与创新的基础知识，从个人、组织和生态系统层面理解创业过程，并涵盖可持续、科技、医疗、社会与文化创业等情境。",
+    "learning_path_zh": "创业基础 → 创业与创新过程 → 个人、组织与生态系统 → 可持续 / 科技 / 医疗 / 社会文化创业 → Storytelling 与反思",
+    "learning_path_en": "Entrepreneurship foundations → entrepreneurial and innovation processes → individuals, organisations and ecosystems → contextual entrepreneurship → storytelling and reflection",
+    "source_note_zh": "来源：SIEN6006 Semester 2 2026 Unit Outline 与 Canvas。Canvas 当前可见 Week 1–6 与 Week 13 资源；其他周次按 Unit Outline 展示，不推测未发布的课前任务。",
+    "source_note_en": "Sources: SIEN6006 Semester 2 2026 Unit Outline and Canvas. Canvas currently exposes resources for Weeks 1–6 and Week 13; other weeks use the Unit Outline without inferred preparation tasks.",
+    "sources": [
+      {"title": "SIEN6006 Semester 2 2026 Unit Outline", "url": "https://www.sydney.edu.au/units/SIEN6006/2026-S2C-ND-CC"},
+      {"title": "SIEN6006 Canvas Modules", "url": "https://canvas.sydney.edu.au/courses/75515/modules"}
+    ],
+    "sessions": [
+      {"type": "Lecture", "duration": "1.5 hours", "attendance_zh": "部分周次为 Live lecture，部分为 Canvas content；Lecture 会录制", "attendance_en": "Live lecture in selected weeks and Canvas content in others; lectures are recorded"},
+      {"type": "Workshop", "duration": "1.5 hours", "attendance_zh": "Week 2–13 安排 Workshop；参与和专业表现占 10%", "attendance_en": "Workshops run in Weeks 2–13; participation and professionalism are worth 10%"}
+    ],
+    "assessments": [
+      {"title_en": "Critical Analysis of an Entrepreneur", "title_zh": "创业者批判性分析", "category_en": "Individual report", "category_zh": "个人报告", "weight": 30, "due_at": "2026-09-14T23:59:00+10:00", "deliverables_en": "2000-word report", "deliverables_zh": "2000 字报告", "mode": "individual"},
+      {"title_en": "Consulting Presentation", "title_zh": "咨询展示", "category_en": "Group presentation", "category_zh": "小组展示", "weight": 35, "due_at": "2026-10-19T23:59:00+11:00", "deliverables_en": "15-minute presentation and slide deck", "deliverables_zh": "15 分钟展示与 Slide deck", "mode": "group", "team_size": null},
+      {"title_en": "Critical Reflection", "title_zh": "批判性反思", "category_en": "Individual report", "category_zh": "个人报告", "weight": 25, "due_at": "2026-11-16T23:59:00+11:00", "deliverables_en": "1500-word reflection", "deliverables_zh": "1500 字反思报告", "mode": "individual"},
+      {"title_en": "Participation and Professionalism", "title_zh": "课堂参与与专业表现", "category_en": "Participation", "category_zh": "课堂参与", "weight": 10, "due_at": null, "due_text_en": "Ongoing", "due_text_zh": "持续进行", "deliverables_en": "Lecture and workshop participation", "deliverables_zh": "Lecture 与 Workshop 参与", "mode": "individual"}
+    ],
+    "weeks": [
+      {"week": 1, "title_en": "Introduction to Fundamentals of Entrepreneurship", "title_zh": "创业基础导论", "lecture": "Live lecture: introduction to entrepreneurship", "tutorial": "No workshop scheduled in the Unit Outline", "outcomes": ["LO1", "LO2", "LO3"]},
+      {"week": 2, "title_en": "Processes of Entrepreneurship", "title_zh": "创业过程", "lecture": "Live lecture and guest-speaker discussion", "tutorial": "Apply entrepreneurial-process frameworks", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 3, "title_en": "Processes of Innovation", "title_zh": "创新过程", "lecture": "Live lecture and guest-speaker discussion", "tutorial": "Apply innovation-process frameworks", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 4, "title_en": "Entrepreneurship and Individuals", "title_zh": "创业与个人", "lecture": "Live lecture", "tutorial": "Individual-level entrepreneurship workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 5, "title_en": "Entrepreneurship and Organisations", "title_zh": "创业与组织", "lecture": "Canvas content", "tutorial": "Organisation-level entrepreneurship workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 6, "title_en": "Entrepreneurship and Wider Contexts", "title_zh": "创业与更广泛情境", "lecture": "Live lecture", "tutorial": "Ecosystem and context workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 7, "title_en": "Sustainable Entrepreneurship", "title_zh": "可持续创业", "lecture": "Canvas content", "tutorial": "Sustainable entrepreneurship workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 8, "title_en": "Technology Entrepreneurship", "title_zh": "科技创业", "lecture": "Lecture", "tutorial": "Technology entrepreneurship workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 9, "title_en": "Medical Entrepreneurship", "title_zh": "医疗创业", "lecture": "Canvas content", "tutorial": "Medical entrepreneurship workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 10, "title_en": "Social and Cultural Entrepreneurship", "title_zh": "社会与文化创业", "lecture": "Lecture", "tutorial": "Social and cultural entrepreneurship workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 11, "title_en": "Recap and Looking Forward", "title_zh": "回顾与展望", "lecture": "Canvas content", "tutorial": "Consulting Presentation", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 12, "title_en": "Entrepreneurial Storytelling and Narrative", "title_zh": "创业叙事与 Storytelling", "lecture": "Canvas content", "tutorial": "Storytelling workshop", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]},
+      {"week": 13, "title_en": "Final Assignment Drop-in Session", "title_zh": "期末作业答疑", "lecture": "No lecture scheduled", "tutorial": "Critical Reflection drop-in session", "outcomes": ["LO1", "LO2", "LO3", "LO4", "LO5"]}
+    ],
+    "detailed_weeks": {
+      "1": {"learning_objectives_zh": ["理解 Entrepreneurship 与 Innovation 的基本关系", "思考创业在商业、社会和个人职业中的意义"], "learning_objectives_en": ["Understand the basic relationship between entrepreneurship and innovation", "Consider entrepreneurship in business, society and personal careers"], "must_do_zh": ["完成 Week 1 Overview 与 required readings", "准备 Pilot Your Purpose 课前问题"], "must_do_en": ["Complete the Week 1 Overview and required readings", "Prepare the Pilot Your Purpose pre-work questions"], "before_zh": ["学习 Entrepreneurship / Innovation 的基本概念", "完成 required readings", "思考如何把创业技能用于个人生活与目标"], "before_en": ["Review the core entrepreneurship and innovation concepts", "Complete the required readings", "Consider how entrepreneurial skills apply to your own goals"], "during_zh": ["参加 Live lecture", "在 Workshop 完成 Pilot Your Purpose 与认识活动"], "during_en": ["Attend the live lecture", "Complete Pilot Your Purpose and introductory activities in the workshop"], "after_zh": ["核对是否理解创新与创业的关系，并完成个人反思"], "after_en": ["Check your understanding of innovation and entrepreneurship and complete a short reflection"]},
+      "2": {"learning_objectives_zh": ["理解不同 Entrepreneurship Process 框架", "把理论应用到真实创业案例"], "learning_objectives_en": ["Understand alternative entrepreneurial-process frameworks", "Apply theory to real entrepreneurial cases"], "must_do_zh": ["完成 Week 2 Overview 与 readings", "参与 Guest lecture discussion", "完成 Workshop preparation"], "must_do_en": ["Complete the Week 2 Overview and readings", "Participate in the guest-lecture discussion", "Complete the workshop preparation"], "before_zh": ["阅读创业过程材料并准备讨论问题"], "before_en": ["Read the entrepreneurial-process materials and prepare discussion questions"], "during_zh": ["参与 Guest lecture discussion", "在 Workshop 应用创业过程框架"], "during_en": ["Participate in the guest-lecture discussion", "Apply entrepreneurial-process frameworks in the workshop"], "after_zh": ["整理案例与理论框架之间的对应关系"], "after_en": ["Map the case evidence to the theoretical frameworks"]}
+    }
+  }
+}

@@ -1,0 +1,24 @@
+# Private University of Sydney course materials
+data/private/
+
+# Local runtime data
+data/uploads/
+data/local/
+data/app.db
+.env
+.streamlit/secrets.toml
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+src/*.egg-info/
+
+# Unrelated local projects and package caches
+.pnpm-store/
+fitness_pwa/
+
+# macOS
+.DS_Store

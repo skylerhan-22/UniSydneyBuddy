@@ -1,0 +1,5 @@
+QBUS6600 Assignment 1 Brief
+
+This is an individual data analysis assignment.
+Submit a short written report containing exploratory data analysis and key findings.
+Due: 7 September 2026. Weight: 30%.

@@ -1,0 +1,13 @@
+{
+  "app.name": "UniSydneyBuddy Skill Hub",
+  "nav.semesterBrief": "学期总览",
+  "nav.weeklyBrief": "每周简报",
+  "nav.projectPlanner": "项目计划",
+  "common.source": "查看来源",
+  "common.unknown": "待确认",
+  "common.courseRequirement": "课程要求",
+  "common.aiSuggestion": "AI 建议",
+  "common.confirm": "确认",
+  "common.edit": "修改"
+}
+

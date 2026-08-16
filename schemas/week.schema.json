@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://unisydneybuddy.local/schemas/week.schema.json",
+  "title": "Week",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "course_id",
+    "week_number",
+    "title_original",
+    "title_localized",
+    "learning_objectives",
+    "sessions",
+    "must_do",
+    "project_links",
+    "evidence_ids"
+  ],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "course_id": {"type": "string", "minLength": 1},
+    "week_number": {"type": "integer", "minimum": 1, "maximum": 20},
+    "title_original": {"type": "string", "minLength": 1},
+    "title_localized": {"type": "object", "additionalProperties": {"type": "string"}},
+    "learning_objectives": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "sessions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "title", "before", "during", "after", "attendance_required"],
+        "properties": {
+          "type": {"type": "string", "enum": ["lecture", "workshop", "tutorial", "module", "online_activity", "ed_lesson", "other"]},
+          "title": {"type": "string", "minLength": 1},
+          "starts_at": {"type": ["string", "null"], "format": "date-time"},
+          "location": {"type": ["string", "null"]},
+          "attendance_required": {"type": ["boolean", "null"]},
+          "before": {"type": "array", "items": {"type": "string"}},
+          "during": {"type": "array", "items": {"type": "string"}},
+          "after": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "must_do": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "project_links": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "evidence_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+  }
+}
+

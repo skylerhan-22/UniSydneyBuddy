@@ -1,0 +1,16 @@
+{
+  "last_updated": "2026-08-15T14:56:00+10:00",
+  "current_phase_zh": "v0.7 大模型解析接口与统一资料表单已完成",
+  "current_phase_en": "v0.7 LLM analysis adapter and unified material form complete",
+  "milestones": [
+    {"id": "prd", "title_zh": "PRD 与范围", "title_en": "PRD and scope", "status": "completed"},
+    {"id": "schemas", "title_zh": "数据 Schema", "title_en": "Data schemas", "status": "completed"},
+    {"id": "gold", "title_zh": "QBUS6600 标准答案", "title_en": "QBUS6600 gold dataset", "status": "completed"},
+    {"id": "ingestion", "title_zh": "本地文档解析", "title_en": "Local document ingestion", "status": "completed"},
+    {"id": "prototype", "title_zh": "小组计划原型", "title_en": "Group planner prototype", "status": "completed"},
+    {"id": "ai_extraction", "title_zh": "结构化抽取接口", "title_en": "Structured extraction interface", "status": "completed"},
+    {"id": "semester", "title_zh": "学期总览", "title_en": "Semester Brief", "status": "completed"},
+    {"id": "weekly", "title_zh": "每周简报", "title_en": "Weekly Brief", "status": "completed"},
+    {"id": "eval", "title_zh": "Eval 与 Demo 包装", "title_en": "Eval and demo packaging", "status": "completed"}
+  ]
+}

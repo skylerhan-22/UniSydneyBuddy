@@ -1,0 +1,13 @@
+{
+  "app.name": "UniSydneyBuddy Skill Hub",
+  "nav.semesterBrief": "Semester Brief",
+  "nav.weeklyBrief": "Weekly Brief",
+  "nav.projectPlanner": "Project Planner",
+  "common.source": "View source",
+  "common.unknown": "To confirm",
+  "common.courseRequirement": "Course requirement",
+  "common.aiSuggestion": "AI suggestion",
+  "common.confirm": "Confirm",
+  "common.edit": "Edit"
+}
+

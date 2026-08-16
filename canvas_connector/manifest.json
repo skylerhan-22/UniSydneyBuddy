@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "UniSydneyBuddy Canvas Connector",
+  "version": "0.2.0",
+  "description": "Read-only sync from the signed-in University of Sydney Canvas session to UniSydneyBuddy.",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": [
+    "https://canvas.sydney.edu.au/*",
+    "http://127.0.0.1:8765/*",
+    "https://*.onrender.com/*"
+  ],
+  "action": {
+    "default_title": "UniSydneyBuddy Canvas Connector",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://canvas.sydney.edu.au/*"],
+      "js": ["canvas-content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

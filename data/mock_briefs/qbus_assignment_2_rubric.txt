@@ -1,0 +1,7 @@
+QBUS6600 Assignment 2 Rubric
+
+Group Project criteria:
+- quality of analysis;
+- model evaluation;
+- business recommendations;
+- report and presentation clarity.

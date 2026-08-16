@@ -1,0 +1,25 @@
+{
+  "source": "University of Sydney QBUS6600 Unit Outline, Semester 2 2026",
+  "source_checked_at": "2026-08-14",
+  "course_summary_en": "A capstone unit that applies data analytics to real-world business problems through an industry project. Students integrate statistical and machine-learning methods with business knowledge to support professional decision making.",
+  "course_summary_zh": "这是一门商业数据分析方向的 Capstone 课程。学生围绕真实行业项目，把统计分析、Machine Learning 和商业知识结合起来，用数据支持业务决策，并完成从数据理解、建模到商业建议的完整项目。",
+  "sessions": [
+    {"type": "Lecture", "duration": "以个人课表为准", "duration_en": "Refer to personal timetable", "attendance_zh": "当前课程资料未注明考勤要求", "attendance_en": "Attendance is not stated in the current source"},
+    {"type": "Tutorial", "duration": "以个人课表为准", "duration_en": "Refer to personal timetable", "attendance_zh": "当前课程资料未注明考勤要求", "attendance_en": "Attendance is not stated in the current source"}
+  ],
+  "weeks": [
+    {"week": 1, "title_en": "Introduction to the unit and industry partners", "title_zh": "课程介绍与行业合作方", "lecture": "Introduction to the unit and the industry partners", "tutorial": "Data understanding and data cleaning", "outcomes": ["LO1", "LO4"]},
+    {"week": 2, "title_en": "Analytics workflow and ML fundamentals", "title_zh": "数据分析工作流与 Machine Learning 基础", "lecture": "The data analytic workflow and statistical/machine learning fundamentals", "tutorial": "Exploratory data analysis", "outcomes": ["LO1", "LO2", "LO4"]},
+    {"week": 3, "title_en": "Exploratory data analysis and feature engineering", "title_zh": "探索性数据分析与特征工程", "lecture": "Exploratory data analysis and feature engineering", "tutorial": "Linear regression and feature engineering", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+    {"week": 4, "title_en": "Clustering and classification introduction", "title_zh": "聚类与分类方法入门", "lecture": "Clustering. Introduction to Classification", "tutorial": "Clustering", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+    {"week": 5, "title_en": "Logistic regression and binary model evaluation", "title_zh": "逻辑回归与二分类模型评估", "lecture": "Logistic regression. Decision theory and model evaluation for binary classification", "tutorial": "Logistic regression", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+    {"week": 6, "title_en": "Model selection", "title_zh": "模型选择", "lecture": "Model Selection", "tutorial": "Model selection", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+    {"week": 7, "title_en": "Regularization in linear regression", "title_zh": "线性回归中的正则化", "lecture": "Regularization in linear regression", "tutorial": "Regularization in linear regression", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+    {"week": 8, "title_en": "Classification and regression trees", "title_zh": "分类树与回归树", "lecture": "Classification and regression trees", "tutorial": "Classification and regression trees", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+    {"week": 9, "title_en": "Tree-based regression methods", "title_zh": "树模型回归方法", "lecture": "Tree-based methods (regression)", "tutorial": "Tree-based methods for regression (random forests, boosting)", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+    {"week": 10, "title_en": "Tree-based classification methods", "title_zh": "树模型分类方法", "lecture": "Tree-based methods (classification)", "tutorial": "Tree-based methods for classification (random forests, boosting)", "outcomes": ["LO1", "LO2", "LO3", "LO4"]},
+    {"week": 11, "title_en": "Guest lectures and LaTeX", "title_zh": "行业嘉宾讲座与 LaTeX", "lecture": "Guest lectures", "tutorial": "Introduction to LaTeX", "outcomes": ["LO1", "LO4", "LO6"]},
+    {"week": 12, "title_en": "Guest lectures", "title_zh": "行业嘉宾讲座", "lecture": "Guest lectures", "tutorial": null, "outcomes": ["LO1", "LO7"]},
+    {"week": 13, "title_en": "Guest lectures", "title_zh": "行业嘉宾讲座", "lecture": "Guest lectures", "tutorial": null, "outcomes": ["LO1"]}
+  ]
+}
